@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+    font-family: 'Open Sans',arial,sans-serif;
+}
+
+/*Columna 1*/
+/*###############################################*/
+
+header{
+    grid-template-rows: 100%;
+}
+
+/*Columna 3, gris    toolsColumn*/
+.grid-layout{
+    letter-spacing: .01785714em;
+    display: grid;
+    grid-template-columns: 17.5% 13% 50% 17.5%;
+    font-family: Arial;
+    font-size: .875rem;
+}
+
+.lineBetween{
+    border: 1px solid #dadce0;
+}
+
+.toolsColumn{
+    background-color: rgba(241, 241, 241, 0.938);
+    cursor: pointer;
+}
+
+/*margin for the gray line that divides some sections from column 3 and 4*/
+.toolsColumnContent, .extensionsColumnContent{
+    margin: 20px;
+}
+
+.c3Box1, .c3Box2, .c3Box3{
+    margin: 0 0 16px 0;
+}
+/*###############################################*/
+
+/*Columna 4*/
+/*###############################################*/
+
+.c4Box1{
+    height: 350px;
+    grid-column: 3/4;
+    
+}
+
+.image1{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+
+.extensions{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 50px;
+}
